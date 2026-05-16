@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: meditation-frontend
+    ports:
+      - "80:80"
